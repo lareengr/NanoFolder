@@ -1,0 +1,21 @@
+# Core scientific libraries
+torch>=1.13.0
+numpy
+matplotlib
+scikit-learn
+pandas
+tqdm
+
+# Bioinformatics
+biopython
+
+# Protein language model
+transformers
+fair-esm  # for Meta's ESM2 model
+
+# Web app
+streamlit
+
+# Optional (for 3Dmol.js and smoother rendering in Streamlit)
+pydeck
+protobuf<4  # ensures compatibility with some Streamlit deployments
