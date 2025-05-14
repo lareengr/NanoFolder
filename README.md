@@ -39,9 +39,9 @@ Use it to understand how these systems work, not for scientific or medical concl
 
 ## 🧪 Why sdAbs?
 
-- Small: they typically consist of ~110–130 residues, making them ideal for fast inference and easy visualization (e.g.[Muyldermans, 2013](#references))
-- Medically relevant: sdAbs are used in therapeutics and diagnostics, including applications in oncology, virology, and neurodegenerative diseases (e.g. [Van Audenhove & Gettemans, 2016](#references))
-- Well-characterized: hundreds of sdAb structures are available in public databases like SAbDab (e.g. [Dunbar et al., 2014](#references))
+- Small: they typically consist of ~110–130 residues, making them ideal for fast inference and easy visualization (e.g. [Muyldermans, 2013](#-References))
+- Medically relevant: sdAbs are used in therapeutics and diagnostics, including applications in oncology, virology, and neurodegenerative diseases (e.g. [Van Audenhove & Gettemans, 2016](#-References))
+- Well-characterized: hundreds of sdAb structures are available in public databases like SAbDab (e.g. [Dunbar et al., 2014](#-References))
 
 ---
 
