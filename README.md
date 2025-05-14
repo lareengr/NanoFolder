@@ -88,12 +88,9 @@ To assess NanoFolder's predictive accuracy, we evaluated the ensemble on a held-
 
 ## 📚 References
 
-- Muyldermans, Serge. “Nanobodies: natural single-domain antibodies.” *Annual review of biochemistry* vol. 82 (2013): 775-97.   
-  [doi: 10.1146/annurev-biochem-063011-092449](https://doi.org/10.1146/annurev-biochem-063011-092449)
+- Muyldermans, Serge. “Nanobodies: natural single-domain antibodies.” *Annual review of biochemistry* vol. 82 (2013): 775-97. [doi: 10.1146/annurev-biochem-063011-092449](https://doi.org/10.1146/annurev-biochem-063011-092449)
 
-- Van Audenhove, Isabel, and Jan Gettemans. “Nanobodies as Versatile Tools to Understand, Diagnose, Visualize and Treat Cancer.” *EBioMedicine* vol. 8 (2016): 40-48.
-  [doi: 10.1016/j.ebiom.2016.04.028](https://doi.org/10.1016/j.ebiom.2016.04.028)
+- Van Audenhove, Isabel, and Jan Gettemans. “Nanobodies as Versatile Tools to Understand, Diagnose, Visualize and Treat Cancer.” *EBioMedicine* vol. 8 (2016): 40-48. [doi: 10.1016/j.ebiom.2016.04.028](https://doi.org/10.1016/j.ebiom.2016.04.028)
 
-- Dunbar, James et al. “SAbDab: the structural antibody database.” *Nucleic acids research* vol. 42,Database issue (2014)  
-  [doi: 10.1093/nar/gkt1043](https://doi.org/10.1093/nar/gkt1043)
+- Dunbar, James et al. “SAbDab: the structural antibody database.” *Nucleic acids research* vol. 42,Database issue (2014) [doi: 10.1093/nar/gkt1043](https://doi.org/10.1093/nar/gkt1043)
 
