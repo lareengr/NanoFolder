@@ -32,14 +32,14 @@ Use it to understand how these systems work, not for scientific or medical concl
 1. **Input:** Amino acid sequence (optimized for single-domain antibodies, sdAbs)
 2. **Embeddings:** Generated using Meta's **ESM2** protein language model
 3. **Prediction:** A transformer-based model predicts a pairwise **distance map**
-4. **Reconstruction:** Simplified backbone structure generated from the predicted map using multidimensional scaling 
+4. **Reconstruction:** Rough 3D backbone coordinates are reconstructed from the predicted distance map using multidimensional scaling (MDS) and synthetic backbone geometry
 5. **Visualization:** Both distance heatmap and 3D structure are displayed interactively
 
 ---
 
 ## 🧪 Why sdAbs?
 
-- Small: they typically consist of ~110–130 residues, making them ideal for fast inference and easy visualization (e.g. [Muyldermans, 2013](#-References))
+- Small size: typically ~110–130 residues, ideal for faster inference and more compact visualizations (e.g. [Muyldermans, 2013](#-References))
 - Medically relevant: sdAbs are used in therapeutics and diagnostics, including applications in oncology, virology, and neurodegenerative diseases (e.g. [Van Audenhove & Gettemans, 2016](#-References))
 - Well-characterized: hundreds of sdAb structures are available in public databases like SAbDab (e.g. [Dunbar et al., 2014](#-References))
 
@@ -54,7 +54,7 @@ NanoFolder_app/
 ├── images
 │   ├── background.png            # Custom background image for app styling
 │   ├── demo.gif                  # GIF demo showing app usage
-│   └── performance_summary.png   # Plot of the evaulated model performance
+│   └── performance_summary.png   # Plot of the evaluated model performance
 ├── model                         # Folder containing trained PyTorch model weights
 │   ├── trained_model_fold0.pt
 │   ├── trained_model_fold1.pt
@@ -70,11 +70,26 @@ NanoFolder_app/
 
 ---
 
+## 🚀 Run It Locally
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/NanoFolder.git
+cd NanoFolder_app
+pip install -r requirements.txt
+streamlit run src/app.py
+```
+
+---
+
 ## 📊 Model Performance
 
 To assess NanoFolder's predictive accuracy, we evaluated the ensemble on a held-out subset comprising over 20% of the training and validation data. The results are summarized below:
 
 ![Performance Summary](images/performance_summary.png)
+> 📌 Note: MSE and Pearson correlation were computed over 300 random samples per split (training and validation). Metrics are computed pairwise from the upper triangle of the L×L distance matrices.
+
 
 ---
 
